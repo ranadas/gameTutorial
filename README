@@ -5,3 +5,36 @@ http://jonas.nitro.dk/tig/manual.html
 
 http://www.edu4java.com/en/game/game0-en.html
 http://www.edu4java.com/en/game/game2.html
+
+git remote add origin https://github.com/ranadas/gameTutorial.git
+
+How to add to git/github
+1. Created a git init, git commit(S) all locally.
+2. Created a repository in github (https://github.com/ranadas/gameTutorial.git).
+3. git remote add origin https://github.com/ranadas/gameTutorial.git and check git remote -v
+4. git branch --set-upstream-to=origin/master master
+5. git pull
+6. git push --set-upstream origin master
+7. git push henceforth
+
+
+
+rdas@Ranas-MacBook-Pro-2:~/workspace/CoderDojoD15/gameTutorial$ git branch
+
+
+rdas@Ranas-MacBook-Pro-2:~/workspace/CoderDojoD15/gameTutorial$ git remote add origin https://github.com/ranadas/gameTutorial.git
+
+rdas@Ranas-MacBook-Pro-2:~/workspace/CoderDojoD15/gameTutorial$ git remote -v
+origin	https://github.com/ranadas/gameTutorial.git (fetch)
+origin	https://github.com/ranadas/gameTutorial.git (push)
+
+
+rdas@Ranas-MacBook-Pro-2:~/workspace/CoderDojoD15/gameTutorial$ git branch --set-upstream-to=origin/master master
+Branch master set up to track remote branch master from origin.
+
+
+
+rdas@Ranas-MacBook-Pro-2:~/workspace/CoderDojoD15/gameTutorial$ git branch --set-upstream-to=origin/master master
+rdas@Ranas-MacBook-Pro-2:~/workspace/CoderDojoD15/gameTutorial$ git pull
+rdas@Ranas-MacBook-Pro-2:~/workspace/CoderDojoD15/gameTutorial$ git push --set-upstream origin master
+rdas@Ranas-MacBook-Pro-2:~/workspace/CoderDojoD15/gameTutorial$ git push

@@ -14,6 +14,12 @@
         <module>ch01-frame-panel</module>
         <module>ch02-animation</module>
         <module>ch03-speed-direction</module>
+        <module>ch04-keyboardinput</module>
+        <module>ch05-racquet</module>
+        <module>ch06-collion-detection</module>
+        <module>ch07-add-sound</module>
+        <module>ch08-sound</module>
+        <module>ch09-punctuate-speed-increase</module>
     </modules>
 
     <build>
@@ -45,4 +51,3 @@
         </dependency>
     </dependencies>
 </project>
-

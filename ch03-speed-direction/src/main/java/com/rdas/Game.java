@@ -8,23 +8,6 @@ import javax.swing.*;
 
 /**
  * Created by rdas on 14/01/2015.
- * TODO implements Runnable  and use the run method
- * in main
- * //   Thread thread = new Thread(game);
- * //   thread.start();
- *
- @Override
- public void run() {
-
- System.out.println("R U N !!!");
- moveBall();
- repaint();
- try {
- Thread.sleep(10);
- } catch (InterruptedException e) {
- e.printStackTrace();
- }
- }
  */
 public class Game extends JPanel {
     final static Logger logger = Logger.getLogger(Game.class);
@@ -69,7 +52,7 @@ public class Game extends JPanel {
             game.moveBall();
             game.repaint();
             Thread.sleep(10);
-            System.out.println("while true R U N !!!");
+            logger.debug("while true R U N !!!");
         }
     }
 }
